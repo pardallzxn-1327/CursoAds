@@ -16,3 +16,6 @@ __pycache__/
 *.bin
 *.img
 *.iso
+
+# other itens
+_templates/
