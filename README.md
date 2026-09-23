@@ -2,6 +2,8 @@
 
 Anotações, exercícios, provas e projetos das matérias curso.
 
+> **Template base:** este repositório foi criado a partir do [TemplateEstudos](https://github.com/pardallzxn-1327/TemplateEstudos), que define a estrutura padrão e o manual de organização da base de estudos.
+
 ## Disciplinas
 
 | Disciplina | Conteúdo |
