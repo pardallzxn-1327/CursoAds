@@ -1,0 +1,18 @@
+# Builds e dependências
+node_modules/
+dist/
+build/
+*.class
+*.pyc
+__pycache__/
+
+# Artefatos de ambiente
+.env
+.vscode/
+.idea/
+
+# Arquivos grandes que não devem ir para o git (ajuste conforme a disciplina)
+*.exe
+*.bin
+*.img
+*.iso
