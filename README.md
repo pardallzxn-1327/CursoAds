@@ -1,6 +1,6 @@
 # Estudos
 
-Anotações, exercícios, provas e projetos das matérias da faculdade.
+Anotações, exercícios, provas e projetos das matérias curso.
 
 ## Disciplinas
 
