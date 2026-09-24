@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- ===========================================================
+        Exercício 03 — Listas, Tabelas e Teste com Imagens
+        Autor    : Pablo Gustavo Alves Dias
+        Matrícula: 6382081800023594
+        Turma    : DS-14
+        Disciplina: FrontEnd (Desenvolvimento Web)
+    ============================================================ -->
+
+    <!-- Codificação de caracteres da página (padrão UTF-8) -->
+    <meta charset="UTF-8" />
+    <!-- Ajusta a página para se adaptar a telas de diferentes tamanhos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Título exibido na aba do navegador -->
+    <title>Exercício 03 — Listas, Tabelas e Imagens</title>
+  </head>
+
+  <body>
+    <!-- Cabeçalho da página: apresenta o tema do exercício -->
+    <header>
+      <h1>Exercício 03 — Listas, Tabelas e Imagens</h1>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+      <!-- ===========================================================
+           Seção 1: Listas
+      ============================================================ -->
+      <section>
+        <h2>Teste de Listas</h2>
+
+        <!-- Lista não ordenada (marcadores) -->
+        <p>Filmes (lista não ordenada):</p>
+        <ul>
+          <li>Carros</li>
+          <li>Velozes e Furiosos 7</li>
+          <li>Velozes e Furiosos 3</li>
+        </ul>
+
+        <!-- Lista ordenada (numeração automática) -->
+        <p>Animes favoritos (lista ordenada):</p>
+        <ol>
+          <li>Konosuba</li>
+          <li>Initial D</li>
+          <li>Naruto</li>
+        </ol>
+      </section>
+
+      <!-- ===========================================================
+           Seção 2: Tabela
+      ============================================================ -->
+      <section>
+        <h2>Teste de Tabelas</h2>
+
+        <!--
+          Tabela com notas dos animes:
+          - a primeira linha usa <th> (cabeçalho da tabela);
+          - as linhas seguintes usam <td> (células de dados).
+        -->
+        <table>
+          <caption>Notas dos animes favoritos</caption>
+          <thead>
+            <tr>
+              <th>Anime</th>
+              <th>Nota</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Konosuba</td>
+              <td>5</td>
+            </tr>
+
+            <tr>
+              <td>Initial D</td>
+              <td>4</td>
+            </tr>
+
+            <tr>
+              <td>Naruto</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ===========================================================
+           Seção 3: Teste com imagens (tag img)
+      ============================================================ -->
+      <section>
+        <h2>Teste da tag img</h2>
+
+        <!-- Imagem 1: hospedada em site externo e clicável (link) -->
+        <p>Aqua Chibi</p>
+        <a href="https://konosuba.fandom.com/pt-br/wiki/Wiki_Konosuba">
+          <img
+            src="https://i.pinimg.com/564x/d9/a3/81/d9a381a19137d5b3c2b1a78ec5a380cc.jpg"
+            alt="Aqua Chibi"
+            width="606"
+            height="606"
+          />
+        </a>
+
+        <!-- Imagem 2: arquivo local na pasta do exercício (images.jpg) -->
+        <p>Jack Sparrow Running</p>
+        <img
+          src="images.jpg"
+          alt="Jack Sparrow Running"
+          width="606"
+          height="606"
+        />
+      </section>
+
+      <!-- ===========================================================
+           Seção 4: Campos de texto
+      ============================================================ -->
+      <section>
+        <h2>Teste de Campos de Texto</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="anime">Anime Favorito:</label>
+        <input type="text" id="anime" name="anime" />
+      </section>
+
+      <!-- ===========================================================
+           Seção 5: Formulário de login
+      ============================================================ -->
+      <section>
+        <h2>Formulário de Login</h2>
+
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+
+          <button type="submit">Log In</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+      <p>Exercício 03 — FrontEnd</p>
+    </footer>
+  </body>
+</html>
